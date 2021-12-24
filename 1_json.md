@@ -69,7 +69,13 @@ A dictionary is a list of *"key"*: "value" pairs.
 
 {*"breed"*: "labrador", *"color"*: "black", *"name"*: "rex"}
 
-{*"breed"*: "spaniel", *"color"*: "brown", *"name"*: "rover"}
+We can also put our dictionary over many lines to make it easier to read.
+
+{
+    *"breed"*: "spaniel", 
+    *"color"*: "brown", 
+    *"name"*: "rover"
+}
 
 ```python
 >>> mydictionary = {"breed": "labrador", "color": "black", "name": "rex"}  
