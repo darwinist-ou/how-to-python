@@ -13,5 +13,6 @@ An integer is a whole number such as 1, 2, 3 or 2048.
 
 > # Integers inside the computer
 > single byte (8 bits) integer = 0 to 255
+
 > double byte (16 bits) integer = 0 to 65535
 
