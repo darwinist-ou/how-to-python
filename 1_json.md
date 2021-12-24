@@ -10,7 +10,6 @@ A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack",
 
 An integer is a whole number such as 1, 2, 3 or 2048.
 
+## Floating point number
 
-> ### Integers inside the computer
-> *single byte* (8 bits) integer = 0 to 255. *double byte* (16 bits) integer = 0 to 65535
-
+Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call them "floating point" because it is not possible for a computer to store a true decimal number or fraction. 
