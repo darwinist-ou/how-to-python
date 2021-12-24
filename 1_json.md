@@ -10,26 +10,67 @@ We need to understand the following *types* of *variable* before we can move for
 
 A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack", "1234". A number becomes a string if it's inside quotes.
 
+```
+>>> mystring = "Quack"
+>>> type(mystring)
+<class 'str'>
+```
+
 ## Integer
 
 An integer is a whole number such as 1, 2, 3 or 2048.
+
+```
+>>> myinteger = 10
+>>> type(myinteger)
+<class 'int'>
+```
 
 ## Floating point number
 
 Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call them "floating point" because it is not possible for a computer to store a true decimal number or fraction.
 
+```
+>>> myfloat = 10.1
+>>> type(myfloat)
+<class 'float'>
+```
+
 ## Booleans
 
 Booleans can either be true or false.
 
+```
+>>> mybool = True
+>>> type(mybool)
+<class 'bool'>
+```
+
 # List
 
 A list is a simple sequence of values.
+
 List of Integers: [1, 2, 3, 4]
+
 List of Strings: ["dog", "cat", "mouse", "moose"]
+
 List of Floating Point Numbers: [1.1, 1.2, 1.3, 1.4]
+
+```
+>>> mylist = [1, 2, 3, 4]
+>>> type(mylist)
+<class 'list'>
+```
 
 # Dictionary
 A dictionary is a list of *"key"*: "value" pairs.
+
 {*"breed"*: "labrador", *"color"*: "black", *"name"*: "rex"}
+
 {*"breed"*: "spaniel", *"color"*: "brown", *"name"*: "rover"}
+
+```
+>>> mydictionary = {"breed": "labrador", "color": "black", "name": "rex"}  
+>>> type(mydictionary)
+<class 'dict'>
+```
