@@ -4,7 +4,9 @@ Before we can start coding we need to learn how computers think about data. Whil
 
 A *variable* is a thing that we can create on the fly to store a piece of data. A variable has a *type*.
 
-We need to understand the following *types* of *variable* before we can move forward.
+Python will work out the *type* of a *variable* when you create it.
+
+We need to understand the following *types* of *variable* before we can move forward. 
 
 ## String 
 
@@ -28,7 +30,7 @@ An integer is a whole number such as 1, 2, 3 or 2048.
 
 ## Floating point number
 
-Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call them "floating point" because it is not possible for a computer to store a true decimal number or fraction.
+Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call them "floating point" because it is not possible for a computer to store a true decimal number.
 
 ```python
 >>> myfloat = 10.1
@@ -46,7 +48,7 @@ Booleans can either be true or false.
 <class 'bool'>
 ```
 
-# List
+## List
 
 A list is a simple sequence of values.
 
@@ -62,7 +64,7 @@ List of Floating Point Numbers: [1.1, 1.2, 1.3, 1.4]
 <class 'list'>
 ```
 
-# Dictionary
+## Dictionary
 A dictionary is a list of *"key"*: "value" pairs.
 
 {*"breed"*: "labrador", *"color"*: "black", *"name"*: "rex"}
