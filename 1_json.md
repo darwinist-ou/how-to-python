@@ -12,7 +12,7 @@ An integer is a whole number such as 1, 2, 3 or 2048.
 
 ---
 
-**NOTE**
+**Integers inside the computer**
 ## 
 single byte (8 bits) integer = 0 to 255
 
