@@ -10,7 +10,7 @@ We need to understand the following *types* of *variable* before we can move for
 
 A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack", "1234". A number becomes a string if it's inside quotes.
 
-```
+```python
 >>> mystring = "Quack"
 >>> type(mystring)
 <class 'str'>
@@ -20,7 +20,7 @@ A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack",
 
 An integer is a whole number such as 1, 2, 3 or 2048.
 
-```
+```python
 >>> myinteger = 10
 >>> type(myinteger)
 <class 'int'>
@@ -30,7 +30,7 @@ An integer is a whole number such as 1, 2, 3 or 2048.
 
 Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call them "floating point" because it is not possible for a computer to store a true decimal number or fraction.
 
-```
+```python
 >>> myfloat = 10.1
 >>> type(myfloat)
 <class 'float'>
@@ -40,7 +40,7 @@ Floating point number are decimal numbers such as 0.2, 1/5 or 455.22333. We call
 
 Booleans can either be true or false.
 
-```
+```python
 >>> mybool = True
 >>> type(mybool)
 <class 'bool'>
@@ -56,7 +56,7 @@ List of Strings: ["dog", "cat", "mouse", "moose"]
 
 List of Floating Point Numbers: [1.1, 1.2, 1.3, 1.4]
 
-```
+```python
 >>> mylist = [1, 2, 3, 4]
 >>> type(mylist)
 <class 'list'>
@@ -69,7 +69,7 @@ A dictionary is a list of *"key"*: "value" pairs.
 
 {*"breed"*: "spaniel", *"color"*: "brown", *"name"*: "rover"}
 
-```
+```python
 >>> mydictionary = {"breed": "labrador", "color": "black", "name": "rex"}  
 >>> type(mydictionary)
 <class 'dict'>
