@@ -72,9 +72,13 @@ A dictionary is a list of *"key"*: "value" pairs.
 We can also put our dictionary over many lines to make it easier to read.
 
 {
-    *"breed"*: "spaniel", 
-    *"color"*: "brown", 
+
+    *"breed"*: "spaniel",
+
+    *"color"*: "brown",
+
     *"name"*: "rover"
+    
 }
 
 ```python
