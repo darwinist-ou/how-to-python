@@ -4,18 +4,14 @@ Before we can start coding we need to learn how computers think about data. Whil
 
 ## String 
 
-A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack", "1234". A number is a string if is inside quotes.
+A string is a sequence of characters wrapped in quotes. "Meow", "Woof", "Quack", "1234". A number becomes a string if it's inside quotes.
 
 ## Integer
 
 An integer is a whole number such as 1, 2, 3 or 2048.
 
----
-
+```
 **Integers inside the computer**
-## 
 single byte (8 bits) integer = 0 to 255
-
 double byte (16 bits) integer = 0 to 65535
-
----
+```
